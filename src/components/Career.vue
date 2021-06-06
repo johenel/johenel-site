@@ -22,7 +22,7 @@
                         </li>
                     </ul>
                 </div>
-                
+
             </v-timeline-item>
         </v-timeline>
     </div>
@@ -33,6 +33,20 @@ export default {
     data() {
         return {
             works: [
+                {
+                    company: 'Aloware (https://aloware.com)',
+                    position: 'Soft Engineer (Fullstack Web)',
+                    description: 'Contact Center Software (USA)',
+                    tenure: {
+                        from: 'Sep. 2020',
+                        to: 'Current'
+                    },
+                    responsibilities: [
+                        'Planning and designing features',
+                        'Maintain and Develop new features',
+                        'Worked with features integrated with third party APIs such as Hubspot, Zapier and Pipedrive',
+                    ]
+                },
                 {
                     company: 'EMAPTA',
                     position: 'Back-End Developer (PHP/Laravel)',

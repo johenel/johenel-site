@@ -52,6 +52,13 @@ export default {
                     stack: [
                         '.git'
                     ]
+                },
+                {
+                    label: 'Debugging',
+                    label_class: 'tw-bg-red-700 tw-px-4',
+                    stack: [
+                        'Sentry'
+                    ]
                 }
             ]
         }
